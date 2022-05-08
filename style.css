@@ -37,8 +37,13 @@
 }
 
 .profile .profile-image {
-    width: 100%;
+    display: flex;
+    margin-inline: auto;
+    width: 225px;
+    height: 235px;
+    border: 3px solid #000000;
     border-radius: 100%;
+    margin-bottom: 20px;
 }
 
 .name {
@@ -46,19 +51,28 @@
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 18px;
 }
 
 .profession {
-    color: #eeeeee;
+    color: #FDB44B;
     font-size: 20px;
+    line-height: 23px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 21.75px;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #FDB44B;
     font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 46.25px;
 }
 
 .contact-info ul {
@@ -68,7 +82,7 @@
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: rgba(214, 219, 223, 0.686);
 }
 
 .contact-info ul li i,
@@ -83,15 +97,24 @@
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: rgba(214, 219, 223, 0.686);
 }
 
 .right-section-contents {
     padding: 2rem 2rem;
 }
 
+ .about .right-title {
+    margin-top: 54px;
+    margin-bottom: 38px;
+}
+
 .right-title {
     color: #70C6C7;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
 }
 
 .gap {
@@ -99,6 +122,9 @@
 }
 .about-me-contents {
     font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 59px;
     color: #eeeeee;
 }
 
@@ -115,9 +141,10 @@
 .education-school-name,
 .awards-company-name {
     font-size: 25px;
-    font-weight: bold;
+    letter-spacing: 1px;
     color: #FDB44B;
     text-transform: uppercase;
+    margin-bottom: 7px;
 }
 
 .exp-time-period,
@@ -126,12 +153,15 @@
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 1px;
+    color: #F1F8FD;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
     font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     color: #FDB44B;
 }
 
@@ -139,5 +169,8 @@
 .education-desc,
 .awards-desc {
     font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 150%;
     padding-left: 5px;
+    color: #F1F8FD;
 }
